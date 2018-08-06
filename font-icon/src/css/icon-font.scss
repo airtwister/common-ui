@@ -1,0 +1,407 @@
+/**
+font-icon Webfont
+*/
+@font-face {
+    font-family: 'font-icon';
+    src: url('fonts/font-icon.eot?#1533113334491');
+    src: url('fonts/font-icon.eot?#iefix-1533113334491') format('embedded-opentype'),
+    url('fonts/font-icon.woff2?#1533113334491') format('woff2'),
+    url('fonts/font-icon.woff?#1533113334491') format('woff'),
+    url('fonts/font-icon.ttf?#1533113334491') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^='fi-']:before,
+[class*=' fi-']:before,
+.fi:before{
+    font-family: 'font-icon';
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    speak: none;
+    text-decoration: inherit;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 24px;
+}
+
+/*
+Glyphs list
+*/
+
+.fi-add:before {
+  content: '\ea01';
+}
+
+.fi-arrow-bottom:before {
+  content: '\ea02';
+}
+
+.fi-arrow-left:before {
+  content: '\ea03';
+}
+
+.fi-arrow-mini:before {
+  content: '\ea04';
+}
+
+.fi-arrow-right:before {
+  content: '\ea05';
+}
+
+.fi-arrow-small-bottom:before {
+  content: '\ea06';
+}
+
+.fi-arrow-small-left:before {
+  content: '\ea07';
+}
+
+.fi-arrow-small-right:before {
+  content: '\ea08';
+}
+
+.fi-arrow-small-top:before {
+  content: '\ea09';
+}
+
+.fi-arrow-top:before {
+  content: '\ea0a';
+}
+
+.fi-calendar:before {
+  content: '\ea0b';
+}
+
+.fi-chat:before {
+  content: '\ea0c';
+}
+
+.fi-check-big:before {
+  content: '\ea0d';
+}
+
+.fi-check:before {
+  content: '\ea0e';
+}
+
+.fi-close-big:before {
+  content: '\ea0f';
+}
+
+.fi-close-small:before {
+  content: '\ea10';
+}
+
+.fi-paid-turbo:before {
+  content: '\ea11';
+}
+
+.fi-dot:before {
+  content: '\ea12';
+}
+
+.fi-edit:before {
+  content: '\ea13';
+}
+
+.fi-envelope:before {
+  content: '\ea14';
+}
+
+.fi-eye:before {
+  content: '\ea15';
+}
+
+.fi-facebook:before {
+  content: '\ea16';
+}
+
+.fi-paid-up:before {
+  content: '\ea17';
+}
+
+.fi-foto:before {
+  content: '\ea18';
+}
+
+.fi-geo:before {
+  content: '\ea19';
+}
+
+.fi-google-plus:before {
+  content: '\ea1a';
+}
+
+.fi-home:before {
+  content: '\ea1b';
+}
+
+.fi-info-service:before {
+  content: '\ea1c';
+}
+
+.fi-instagram:before {
+  content: '\ea1d';
+}
+
+.fi-key:before {
+  content: '\ea1e';
+}
+
+.fi-paid-fast:before {
+  content: '\ea1f';
+}
+
+.fi-legal-advice:before {
+  content: '\ea20';
+}
+
+.fi-like-filled:before {
+  content: '\ea21';
+}
+
+.fi-like:before {
+  content: '\ea22';
+}
+
+.fi-list:before {
+  content: '\ea23';
+}
+
+.fi-location-filled:before {
+  content: '\ea24';
+}
+
+.fi-location:before {
+  content: '\ea25';
+}
+
+.fi-lodash:before {
+  content: '\ea26';
+}
+
+.fi-mailru:before {
+  content: '\ea27';
+}
+
+.fi-paid-urgent:before {
+  content: '\ea28';
+}
+
+.fi-odnoklassniki:before {
+  content: '\ea29';
+}
+
+.fi-paid-color:before {
+  content: '\ea2a';
+}
+
+.fi-painted:before {
+  content: '\ea2b';
+}
+
+.fi-percent:before {
+  content: '\ea2c';
+}
+
+.fi-person:before {
+  content: '\ea2d';
+}
+
+.fi-plus:before {
+  content: '\ea2e';
+}
+
+.fi-question:before {
+  content: '\ea2f';
+}
+
+.fi-search:before {
+  content: '\ea30';
+}
+
+.fi-settings:before {
+  content: '\ea31';
+}
+
+.fi-star-filled:before {
+  content: '\ea32';
+}
+
+.fi-star:before {
+  content: '\ea33';
+}
+
+.fi-sticker-filled:before {
+  content: '\ea34';
+}
+
+.fi-sticker:before {
+  content: '\ea35';
+}
+
+.fi-target:before {
+  content: '\ea36';
+}
+
+.fi-tile:before {
+  content: '\ea37';
+}
+
+.fi-paid-hot:before {
+  content: '\ea38';
+}
+
+.fi-trash:before {
+  content: '\ea39';
+}
+
+.fi-twitter:before {
+  content: '\ea3a';
+}
+
+.fi-utility-service:before {
+  content: '\ea3b';
+}
+
+.fi-vk:before {
+  content: '\ea3c';
+}
+
+.fi-youtube:before {
+  content: '\ea3d';
+}
+
+.fi-menu-dot:before {
+  content: '\ea3e';
+}
+
+.fi-proverka:before {
+  content: '\ea3f';
+}
+
+.fi-block-sign:before {
+  content: '\ea40';
+}
+
+.fi-go-back-arrow:before {
+  content: '\ea41';
+}
+
+.fi-round-arrow:before {
+  content: '\ea42';
+}
+
+.fi-soc-facebook:before {
+  content: '\ea43';
+}
+
+.fi-soc-instagram:before {
+  content: '\ea44';
+}
+
+.fi-soc-mail-ru:before {
+  content: '\ea45';
+}
+
+.fi-soc-ok:before {
+  content: '\ea46';
+}
+
+.fi-soc-vk:before {
+  content: '\ea47';
+}
+
+.fi-soc-youtube:before {
+  content: '\ea48';
+}
+
+.fi-success-bordered:before {
+  content: '\ea49';
+}
+
+.fi-warning-bordered:before {
+  content: '\ea4a';
+}
+
+.fi-view-type:before {
+  content: '\ea4b';
+}
+
+.fi-home-bordered:before {
+  content: '\ea4c';
+}
+
+.fi-phone:before {
+  content: '\ea4d';
+}
+
+.fi-paid-re:before {
+  content: '\ea4e';
+}
+
+.fi-camera:before {
+  content: '\ea4f';
+}
+
+.fi-comment:before {
+  content: '\ea50';
+}
+
+.fi-card:before {
+  content: '\ea51';
+}
+
+.fi-exchange:before {
+  content: '\ea52';
+}
+
+.fi-kaspi:before {
+  content: '\ea53';
+}
+
+.fi-qiwi:before {
+  content: '\ea54';
+}
+
+.fi-wallet:before {
+  content: '\ea55';
+}
+
+.fi-crown:before {
+  content: '\ea56';
+}
+
+.fi-fire:before {
+  content: '\ea57';
+}
+
+.fi-kristal:before {
+  content: '\ea58';
+}
+
+.fi-mark:before {
+  content: '\ea59';
+}
+
+.fi-paint:before {
+  content: '\ea5a';
+}
+
+.fi-round-arrow-bold:before {
+  content: '\ea5b';
+}
+
+.fi-top:before {
+  content: '\ea5c';
+}
+
+.fi-paid-vip:before {
+  content: '\ea5d';
+}

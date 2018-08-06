@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="125px" viewBox="0 0 196 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>A2D4494D-2CC8-4B94-8B33-961302C9D607</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 125 196 125 196 0 0 0"></polygon>
+        <path d="M91.7522807,74.409386 C76.5143285,71.489376 65,58.0893458 65,42 C65,23.7746033 79.7746033,9 98,9 C116.225397,9 131,23.7746033 131,42 C131,58.0893458 119.485672,71.489376 104.247719,74.409386 L98,83 L91.7522807,74.409386 Z" id="path-3"></path>
+        <filter x="-24.2%" y="-18.9%" width="148.5%" height="143.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.831372549   0 0 0 0 0.831372549   0 0 0 0 0.854901961  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Продавцам" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-663.000000, -1571.000000)">
+        <g id="Group-18" transform="translate(636.000000, 1546.000000)">
+            <g id="Map_pick" transform="translate(27.000000, 25.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#F0F0F0" opacity="0.5" xlink:href="#path-1"></use>
+                <g id="Group-13" mask="url(#mask-2)" fill="#F0F0F0">
+                    <g transform="translate(-2.000000, -29.713115)">
+                        <path d="M96.7599466,54.7906051 L133.384846,15.0261928 L145.021404,26.2775982 L75.3062584,101.968776 L144.125989,159.497434 L138.436511,166.642423 L69.1131487,108.692764 L11.7870289,170.93292 L0.150471094,159.681514 L90.5668369,61.5145926 L26.1552607,7.67085519 L31.8447393,0.525866122 L96.7599466,54.7906051 Z" id="Combined-Shape" fill-rule="nonzero"></path>
+                        <polygon id="Path-5" fill-rule="evenodd" points="108.867188 92.4381405 159.308901 136.166432 233.911112 49.5930462 187.157389 4.09836066"></polygon>
+                    </g>
+                </g>
+                <g id="Combined-Shape" mask="url(#mask-2)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <path d="M98,67.5 C83.9167389,67.5 72.5,56.0832611 72.5,42 C72.5,27.9167389 83.9167389,16.5 98,16.5 C112.083261,16.5 123.5,27.9167389 123.5,42 C123.5,56.0832611 112.083261,67.5 98,67.5 Z M98,62.5 C109.321837,62.5 118.5,53.3218374 118.5,42 C118.5,30.6781626 109.321837,21.5 98,21.5 C86.6781626,21.5 77.5,30.6781626 77.5,42 C77.5,53.3218374 86.6781626,62.5 98,62.5 Z" id="Oval-2" fill="#FFD313" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <polygon id="Fill-2" fill="#42415B" mask="url(#mask-2)" points="105.7 35 94.7 45.625 90.3 40.3125 87 43.5 94.7 52 109 38.1875"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="64px" viewBox="0 0 60 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>8E498C93-B390-4ECE-9E7F-33DD6F134C85</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M16.2135035,39.775978 C6.97838091,38.0002962 0,29.8516292 0,20.0675676 C0,8.98455603 8.954305,0 20,0 C31.045695,0 40,8.98455603 40,20.0675676 C40,29.8516292 33.0216191,38.0002962 23.7864965,39.775978 L20,45 L16.2135035,39.775978 Z" id="path-1"></path>
+        <filter x="-40.0%" y="-31.1%" width="180.0%" height="171.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.831372549   0 0 0 0 0.831372549   0 0 0 0 0.854901961  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Продавцам" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1163.000000, -272.000000)">
+        <g id="Content/Art/Point" transform="translate(1173.000000, 280.000000)">
+            <g id="Метка-Copy">
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M20,35.5743243 C11.4646902,35.5743243 4.54545455,28.6317128 4.54545455,20.0675676 C4.54545455,11.5034223 11.4646902,4.56081081 20,4.56081081 C28.5353098,4.56081081 35.4545455,11.5034223 35.4545455,20.0675676 C35.4545455,28.6317128 28.5353098,35.5743243 20,35.5743243 Z M20,32.5337838 C26.8617196,32.5337838 32.4242424,26.9524687 32.4242424,20.0675676 C32.4242424,13.1826665 26.8617196,7.60135135 20,7.60135135 C13.1382804,7.60135135 7.57575758,13.1826665 7.57575758,20.0675676 C7.57575758,26.9524687 13.1382804,32.5337838 20,32.5337838 Z" id="Oval-2" fill="#FFD313" fill-rule="nonzero"></path>
+                <polygon id="Fill-2" fill="#42415B" points="24.6666667 15.8108108 18 22.2719595 15.3333333 19.0413851 13.3333333 20.9797297 18 26.1486486 26.6666667 17.7491554"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

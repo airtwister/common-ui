@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="196px" height="125px" viewBox="0 0 196 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>83DBAFD0-7785-49DE-BF73-116BBAAF06CA</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Продавцам" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-663.000000, -1062.000000)">
+        <g id="hot_view" transform="translate(663.000000, 1062.000000)">
+            <polygon id="Fill-1" fill="#F0F0F0" opacity="0.5" points="0 125 196 125 196 3 0 3"></polygon>
+            <g id="Group-6" transform="translate(36.000000, 15.000000)">
+                <polygon id="Fill-5" fill="#FFFFFF" points="5 62 101 62 101 57 5 57"></polygon>
+                <polygon id="Fill-6" fill="#FFFFFF" points="5 74 101 74 101 69 5 69"></polygon>
+                <polygon id="Fill-7" fill="#FFFFFF" points="5 86 101 86 101 81 5 81"></polygon>
+                <polygon id="Fill-8" fill="#FFFFFF" points="5 98 101 98 101 93 5 93"></polygon>
+                <g id="Group-4">
+                    <polygon id="Fill-3" fill="#DEE1E8" points="0 5 22 5 22 0 0 0"></polygon>
+                    <polygon id="Fill-4" fill="#DEE1E8" points="29 5 105 5 105 0 29 0"></polygon>
+                    <polygon id="Fill-10" fill="#FFD313" points="0 30 15 30 15 15 0 15"></polygon>
+                    <polygon id="Fill-11" fill="#DEE1E8" points="18 30 33 30 33 15 18 15"></polygon>
+                    <polygon id="Fill-12" fill="#DEE1E8" points="36 30 51 30 51 15 36 15"></polygon>
+                    <polygon id="Fill-13" fill="#DEE1E8" points="54 30 69 30 69 15 54 15"></polygon>
+                    <polygon id="Fill-14" fill="#DEE1E8" points="72 30 87 30 87 15 72 15"></polygon>
+                    <polygon id="Fill-15" fill="#DEE1E8" points="90 30 105 30 105 15 90 15"></polygon>
+                    <polygon id="Fill-16" fill="#DEE1E8" points="0 48 15 48 15 33 0 33"></polygon>
+                    <polygon id="Fill-17" fill="#DEE1E8" points="18 48 33 48 33 33 18 33"></polygon>
+                    <polygon id="Fill-18" fill="#DEE1E8" points="36 48 51 48 51 33 36 33"></polygon>
+                    <polygon id="Fill-19" fill="#DEE1E8" points="54 48 69 48 69 33 54 33"></polygon>
+                    <polygon id="Fill-20" fill="#DEE1E8" points="72 48 87 48 87 33 72 33"></polygon>
+                    <polygon id="Fill-21" fill="#DEE1E8" points="90 48 105 48 105 33 90 33"></polygon>
+                </g>
+            </g>
+            <g id="Group-5" transform="translate(29.000000, 24.000000)">
+                <path d="M7.5,0 C11.642,0 15,3.358 15,7.5 C15,11.642 11.642,15 7.5,15 C3.358,15 0,11.642 0,7.5 C0,3.358 3.358,0 7.5,0 Z" id="Fill-22" fill="#E64A19"></path>
+                <path d="M8.2783,2.5005 C8.0743,4.6785 7.4663,6.8855 5.6253,7.5775 C5.2343,7.0655 4.6663,5.6185 4.6113,4.5665 C4.6113,4.5655 4.6113,4.5655 4.6103,4.5655 C4.5283,4.5655 1.4123,8.7645 5.1353,11.2845 C5.3133,11.4045 5.4973,11.5025 5.6833,11.5905 C5.8953,11.5605 6.1413,11.4885 6.4043,11.3035 C7.1843,10.6335 7.7193,10.3965 8.1103,10.3965 C8.8863,10.3965 9.0943,11.3325 9.5283,11.6755 C11.6723,10.8855 12.6813,6.2425 8.2783,2.5005" id="Fill-24" fill="#FFFFFF"></path>
+            </g>
+            <polygon id="Fill-26" fill="#D4D4DA" points="0 5 187 5 187 0 0 0"></polygon>
+            <polygon id="Fill-28" fill="#888B94" points="187 5 196 5 196 0 187 0"></polygon>
+        </g>
+    </g>
+</svg>
