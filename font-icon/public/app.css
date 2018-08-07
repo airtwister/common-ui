@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?#1533636045349");
-  src: url("fonts/font-icon.eot?#iefix-1533636045349") format("embedded-opentype"), url("fonts/font-icon.woff2?#1533636045349") format("woff2"), url("fonts/font-icon.woff?#1533636045349") format("woff"), url("fonts/font-icon.ttf?#1533636045349") format("truetype");
+  src: url("fonts/font-icon.eot?#1533636882399");
+  src: url("fonts/font-icon.eot?#iefix-1533636882399") format("embedded-opentype"), url("fonts/font-icon.woff2?#1533636882399") format("woff2"), url("fonts/font-icon.woff?#1533636882399") format("woff"), url("fonts/font-icon.ttf?#1533636882399") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -362,4 +362,5 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 4px; }
+  border-radius: 4px;
+  transition: all 0.2s linear; }

@@ -81,7 +81,6 @@ body {
     align-items: center;
     margin-bottom: 6px;
     cursor: pointer;
-    transition: all 0.2s linear;
 
     &--copied .font-icon__hint {
       display: block;
@@ -113,5 +112,6 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    transition: all 0.2s linear;
   }
 }
