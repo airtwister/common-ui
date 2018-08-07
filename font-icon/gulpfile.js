@@ -31,34 +31,34 @@ gulp.task('fontIcon', function () {
                     fontName: options.fontName,
                     fontDate: new Date().getTime()
                 }))
-                .pipe(gulp.dest('./dist/scss'));
+                .pipe(gulp.dest('./dist/scss'))
+                .on('end', () => {
+                    // шаблон для демо
+                    gulp.src('src/templates/index.html')
+                        .pipe(consolidate('underscore', {
+                            glyphs: glyphs,
+                            fontName: options.fontName,
+                            fontDate: new Date().getTime()
+                        }))
+                        .pipe(gulp.dest('./public/'));
 
-            // шаблон для демо
-            gulp.src('src/templates/index.html')
-                .pipe(consolidate('underscore', {
-                    glyphs: glyphs,
-                    fontName: options.fontName,
-                    fontDate: new Date().getTime()
-                }))
-                .pipe(gulp.dest('./public/'));
+                    // стили для демо
+                    gulp.src(['dist/scss/_font-icon.scss', 'src/templates/app.scss'])
+                        .pipe(plumber({
+                            errorHandler: (err) => {
+                                console.error('CSS TASK ERROR: ', err.message)
+                            }
+                        }))
+                        .pipe(concat('app.css'))
+                        .pipe(sass.sync())
+                        // стили для демо
+                        .pipe(gulp.dest('public/'));
+                });
         })
         // шрифты для экспорта
         .pipe(gulp.dest('dist/fonts'))
         // шрифты для демо
         .pipe(gulp.dest('public/fonts'));
-});
-
-gulp.task('styles', function() {
-    return gulp.src(['dist/scss/_font-icon.scss', 'src/templates/app.scss'])
-        .pipe(plumber({
-            errorHandler: (err) => {
-                console.error('CSS TASK ERROR: ', err.message)
-            }
-        }))
-        .pipe(concat('app.css'))
-        .pipe(sass.sync())
-        // стили для демо
-        .pipe(gulp.dest('public/'));
 });
 
 gulp.task('browser-sync', function() {
@@ -70,4 +70,4 @@ gulp.task('browser-sync', function() {
     });
 });
 
-gulp.task('icons', ['fontIcon', 'styles', 'browser-sync']);
+gulp.task('icons', ['fontIcon', 'browser-sync']);
