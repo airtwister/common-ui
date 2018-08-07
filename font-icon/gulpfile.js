@@ -1,8 +1,10 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
 const iconfont = require('gulp-iconfont');
-const iconfontTemplate = require('gulp-iconfont-template');
 const consolidate = require('gulp-consolidate');
+const sass = require('gulp-sass');
+const plumber = require('gulp-plumber');
+const concat = require('gulp-concat');
 
 gulp.task('fontIcon', function () {
     return gulp.src('src/icons/*.svg')
@@ -22,55 +24,50 @@ gulp.task('fontIcon', function () {
                 return 0;
             });
 
+            // scss для экспорта
             gulp.src('src/templates/_font-icon.scss')
                 .pipe(consolidate('underscore', {
                     glyphs: glyphs,
                     fontName: options.fontName,
                     fontDate: new Date().getTime()
                 }))
+                .pipe(gulp.dest('./dist/scss'));
 
-                .pipe(gulp.dest('./dist/css/scss'));
-
+            // шаблон для демо
             gulp.src('src/templates/index.html')
                 .pipe(consolidate('underscore', {
                     glyphs: glyphs,
                     fontName: options.fontName,
                     fontDate: new Date().getTime()
                 }))
-
-                .pipe(gulp.dest('./dist/'));
+                .pipe(gulp.dest('./public/'));
         })
-        .pipe(gulp.dest('dist/css/fonts'));
+        // шрифты для экспорта
+        .pipe(gulp.dest('dist/fonts'))
+        // шрифты для демо
+        .pipe(gulp.dest('public/fonts'));
 });
 
 gulp.task('styles', function() {
-    return gulp.src(['src/css/*.css', 'src/css/*.scss'])
-       .pipe(plumber({
-           errorHandler: notify.onError(function(err){
-               return{
-                   title : 'CSS TASK ERROR',
-                   message: err.message
-               };
-           })
-       }))
-       .pipe(concat('app.css'))
-       .pipe(sass.sync())
-       .pipe(autoprefixer({
-           browsers: ['last 10 versions'],
-           cascade: false
-       }))
-       .pipe(gulp.dest('dist/css'))
-       .pipe(browserSync.stream())
+    return gulp.src(['dist/scss/_font-icon.scss', 'src/templates/app.scss'])
+        .pipe(plumber({
+            errorHandler: (err) => {
+                console.error('CSS TASK ERROR: ', err.message)
+            }
+        }))
+        .pipe(concat('app.css'))
+        .pipe(sass.sync())
+        // стили для демо
+        .pipe(gulp.dest('public/'));
 });
 
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
-            baseDir: "dist"
+            baseDir: "public"
         },
         startPath: "/index.html"
     });
 });
 
-// Default
-gulp.task('default', ['fontIcon', 'browser-sync']);
+gulp.task('icons', ['fontIcon', 'styles', 'browser-sync']);

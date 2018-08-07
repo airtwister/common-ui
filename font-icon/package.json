@@ -1,8 +1,8 @@
 {
-  "name": "iAgent",
+  "name": "FontIcon",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm i && bower i && gulp"
+    "icons": "npm i && gulp icons"
   },
   "description": "AgroInfo",
   "main": "gulpfile.js",
@@ -10,33 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
-    "gulp-html-tag-include": "^1.0.1",
     "gulp-iconfont": "^9.0.0",
-    "gulp-iconfont-css": "^2.1.0",
-    "gulp-imagemin": "^3.3.0",
     "gulp-sass": "^3.1.0",
-    "gulp-svg-sprite": "^1.3.7",
-    "gulp-uglify": "^1.5.3",
-    "gulp-util": "^3.0.7",
-    "merge-stream": "^1.0.0",
-    "run-sequence": "^1.1.5",
     "underscore": "^1.9.1"
   },
   "dependencies": {
-    "async": "^2.5.0",
-    "bower": "^1.8.0",
     "browser-sync": "^2.12.5",
     "gulp-consolidate": "^0.2.0",
-    "gulp-filter": "^4.0.0",
-    "gulp-font-icon": "^1.0.4",
-    "gulp-ftp": "^1.1.0",
-    "gulp-iconfont-template": "0.0.3",
-    "gulp-notify": "^2.2.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "imagemin": "^5.3.1",
-    "main-bower-files": "^2.13.1"
+    "gulp-plumber": "^1.1.0"
   }
 }
