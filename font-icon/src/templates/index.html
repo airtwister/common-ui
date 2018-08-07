@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Font Icon</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <style>
+            body {
+                padding: 20px;
+                font-family: arial, sans-serif;
+            }
+
+            .font-icon {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+            }
+
+            .font-icon__item {
+                display: flex;
+                align-items: center;
+                margin-bottom: 6px;
+            }
+
+            .font-icon__text {
+                position: relative;
+                margin-left: 10px;
+                cursor: pointer;
+            }
+
+            .font-icon__hint {
+                display: none;
+                position: absolute;
+                padding: 2px 6px;
+                left: 0;
+                font-size: 12px;
+                background: lightseagreen;
+                color: white;
+                border-radius: 4px;
+            }
+
+            .font-icon__item--copied .font-icon__hint {
+                display: block;
+            }
+
+            .font-icon__img {
+                background: lightseagreen;
+                color: white;
+                width: 36px;
+                height: 36px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            @font-face {
+                font-family: '<%= fontName %>';
+                src: url('css/fonts/<%= fontName %>.eot');
+                src: url('css/fonts/<%= fontName %>.eot?#iefix') format('embedded-opentype'),
+                url('css/fonts/<%= fontName %>.woff2') format('woff2'),
+                url('css/fonts/<%= fontName %>.woff') format('woff'),
+                url('css/fonts/<%= fontName %>.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            [class^='fi-']:before,
+            [class*=' fi-']:before,
+            .fi:before{
+                font-family: '<%= fontName %>';
+                display: inline-block;
+                vertical-align: top;
+                line-height: 1;
+                font-weight: normal;
+                font-style: normal;
+                speak: none;
+                text-decoration: inherit;
+                text-transform: none;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-size: 24px;
+            }
+
+            <% _.each(glyphs, function(glyph) { %>
+                .fi-<%= glyph.name %>:before {
+                    content: '\<%= glyph.unicode[0].charCodeAt(0).toString(16) %>';
+                }
+            <% }); %>
+        </style>
+    </head>
+    <body>
+        <div class="font-icon">
+            <% _.each(glyphs, function(glyph) { %>
+                <div class="font-icon__item" onclick="copy(this)" data-value="fi-<%= glyph.name %>">
+                    <div class="font-icon__img">
+                        <div class="fi-<%= glyph.name %>"></div>
+                    </div>
+
+                    <div class="font-icon__text">
+                        fi-<%= glyph.name %>
+                        <div class="font-icon__hint">copied</div>
+                    </div>
+                </div>
+            <% }); %>
+        </div>
+    </body>
+    <script>
+        const copy = function (elem) {
+            const textArea = document.createElement('textarea');
+            textArea.value = elem.getAttribute('data-value');
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            elem.classList.add('font-icon__item--copied');
+
+            setTimeout(() => {
+                elem.classList.remove('font-icon__item--copied');
+            }, 1000);
+        }
+    </script>
+</html>
