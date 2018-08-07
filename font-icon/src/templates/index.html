@@ -60,7 +60,7 @@
             document.querySelector('.font-icon').setAttribute(attr, size);
 
             const list = document.querySelectorAll(`.${className}`);
-            list.forEach((elem) => { console.log(elem); elem.classList.remove(activeClass) });
+            list.forEach((elem) => { elem.classList.remove(activeClass) });
 
             elem.classList.add(activeClass);
         };
