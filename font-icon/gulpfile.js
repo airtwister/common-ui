@@ -5,6 +5,7 @@ const consolidate = require('gulp-consolidate');
 const sass = require('gulp-sass');
 const plumber = require('gulp-plumber');
 const concat = require('gulp-concat');
+const rename = require('gulp-rename');
 
 gulp.task('fontIcon', function () {
     return gulp.src('src/icons/*.svg')
@@ -32,6 +33,8 @@ gulp.task('fontIcon', function () {
                     fontDate: new Date().getTime()
                 }))
                 .pipe(gulp.dest('./dist/scss'))
+                .pipe(rename('_font-icon.less'))
+                .pipe(gulp.dest('./dist/less'))
                 .on('end', () => {
                     // шаблон для демо
                     gulp.src('src/templates/index.html')
