@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Font Icon</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <link type="text/css" rel="stylesheet" href="app.css">
+    </head>
+    <body>
+        <div class="font-icon" data-size="36" data-figure="square">
+            <div class="font-icon__switchers">
+                <div class="font-icon__switcher">
+                    Size:
+
+                    <button class="font-icon__size-btn" onclick="toggleSize(this)" data-size="24">
+                        24px
+                    </button>
+
+                    <button class="font-icon__size-btn font-icon__size-btn--active" onclick="toggleSize(this)" data-size="36">
+                        36px
+                    </button>
+                </div>
+
+                <div class="font-icon__switcher">
+                    Figure:
+
+                    <button class="font-icon__figure-btn font-icon__figure-btn--active" onclick="toggleFigure(this)" data-figure="square">
+                        <span></span>
+                    </button>
+
+                    <button class="font-icon__figure-btn" onclick="toggleFigure(this)" data-figure="circle">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <p class="font-icon__copy-txt">Click icon to copy classname</p>
+
+            <div class="font-icon__container">
+                <% _.each(glyphs, function(glyph) { %>
+                    <div class="font-icon__item" onclick="copy(this)" data-value="fi-<%= glyph.name %>">
+                        <div class="font-icon__img">
+                            <div class="fi-<%= glyph.name %>"></div>
+                        </div>
+
+                        <div class="font-icon__text">
+                            fi-<%= glyph.name %>
+                            <div class="font-icon__hint">copied</div>
+                        </div>
+                    </div>
+                <% }); %>
+            </div>
+        </div>
+    </body>
+    <script>
+        const toggle = function (elem, attr, className) {
+            const size =  elem.getAttribute(attr);
+            const activeClass = `${className}--active`;
+
+            document.querySelector('.font-icon').setAttribute(attr, size);
+
+            const list = document.querySelectorAll(`.${className}`);
+            list.forEach((elem) => { elem.classList.remove(activeClass) });
+
+            elem.classList.add(activeClass);
+        };
+
+        const toggleSize = function (elem) {
+            toggle(elem, 'data-size', 'font-icon__size-btn');
+        };
+
+        const toggleFigure = function (elem) {
+            toggle(elem, 'data-figure', 'font-icon__figure-btn');
+        };
+
+        const copy = function (elem) {
+            const textArea = document.createElement('textarea');
+            textArea.value = elem.getAttribute('data-value');
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+
+            elem.classList.add('font-icon__item--copied');
+
+            setTimeout(() => {
+                elem.classList.remove('font-icon__item--copied');
+            }, 1000);
+        };
+    </script>
+</html>
