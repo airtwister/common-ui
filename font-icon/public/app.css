@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?#1533712406121");
-  src: url("fonts/font-icon.eot?#iefix-1533712406121") format("embedded-opentype"), url("fonts/font-icon.woff2?#1533712406121") format("woff2"), url("fonts/font-icon.woff?#1533712406121") format("woff"), url("fonts/font-icon.ttf?#1533712406121") format("truetype");
+  src: url("fonts/font-icon.eot?#1537180919028");
+  src: url("fonts/font-icon.eot?#iefix-1537180919028") format("embedded-opentype"), url("fonts/font-icon.woff2?#1537180919028") format("woff2"), url("fonts/font-icon.woff?#1537180919028") format("woff"), url("fonts/font-icon.ttf?#1537180919028") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -65,8 +65,17 @@ font-icon Webfont
 .fi-camera:before {
   content: '\ea4f'; }
 
+.fi-car:before {
+  content: '\ea16'; }
+
 .fi-card:before {
   content: '\ea51'; }
+
+.fi-cars-door:before {
+  content: '\ea1a'; }
+
+.fi-cart:before {
+  content: '\ea1d'; }
 
 .fi-chat:before {
   content: '\ea0c'; }
@@ -115,6 +124,9 @@ font-icon Webfont
 
 .fi-go-back-arrow:before {
   content: '\ea41'; }
+
+.fi-helicopter:before {
+  content: '\ea1e'; }
 
 .fi-home:before {
   content: '\ea1b'; }
@@ -263,6 +275,9 @@ font-icon Webfont
 .fi-top:before {
   content: '\ea5c'; }
 
+.fi-tractor:before {
+  content: '\ea27'; }
+
 .fi-trash:before {
   content: '\ea39'; }
 
@@ -277,6 +292,9 @@ font-icon Webfont
 
 .fi-warning-bordered:before {
   content: '\ea4a'; }
+
+.fi-wrench:before {
+  content: '\ea29'; }
 
 body {
   padding: 20px;
