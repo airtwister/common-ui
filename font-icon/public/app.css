@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?#1533712406121");
-  src: url("fonts/font-icon.eot?#iefix-1533712406121") format("embedded-opentype"), url("fonts/font-icon.woff2?#1533712406121") format("woff2"), url("fonts/font-icon.woff?#1533712406121") format("woff"), url("fonts/font-icon.ttf?#1533712406121") format("truetype");
+  src: url("fonts/font-icon.eot?#1537866623578");
+  src: url("fonts/font-icon.eot?#iefix-1537866623578") format("embedded-opentype"), url("fonts/font-icon.woff2?#1537866623578") format("woff2"), url("fonts/font-icon.woff?#1537866623578") format("woff"), url("fonts/font-icon.ttf?#1537866623578") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -253,6 +253,30 @@ font-icon Webfont
 
 .fi-success-bordered:before {
   content: '\ea49'; }
+
+.fi-tab-envelope:before {
+  content: '\ea1a'; }
+
+.fi-tab-envelope-filled:before {
+  content: '\ea16'; }
+
+.fi-tab-person:before {
+  content: '\ea1e'; }
+
+.fi-tab-person-filled:before {
+  content: '\ea1d'; }
+
+.fi-tab-star:before {
+  content: '\ea29'; }
+
+.fi-tab-star-filled:before {
+  content: '\ea27'; }
+
+.fi-tab-tile:before {
+  content: '\ea3c'; }
+
+.fi-tab-tile-filled:before {
+  content: '\ea3a'; }
 
 .fi-target:before {
   content: '\ea36'; }
