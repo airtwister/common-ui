@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1537870056653");
-  src: url("fonts/font-icon.eot?#iefix-1537870056653") format("embedded-opentype"), url("fonts/font-icon.woff2?1537870056653") format("woff2"), url("fonts/font-icon.woff?1537870056653") format("woff"), url("fonts/font-icon.ttf?1537870056653") format("truetype");
+  src: url("fonts/font-icon.eot?1537957211524");
+  src: url("fonts/font-icon.eot?#iefix-1537957211524") format("embedded-opentype"), url("fonts/font-icon.woff2?1537957211524") format("woff2"), url("fonts/font-icon.woff?1537957211524") format("woff"), url("fonts/font-icon.ttf?1537957211524") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -28,6 +28,18 @@ font-icon Webfont
 /* Glyphs list */
 .fi-add:before {
   content: '\ea01'; }
+
+.fi-add-big:before {
+  content: '\ea5e'; }
+
+.fi-add-big-fill:before {
+  content: '\ea3d'; }
+
+.fi-add-small:before {
+  content: '\ea60'; }
+
+.fi-add-small-fill:before {
+  content: '\ea5f'; }
 
 .fi-arrow-bottom:before {
   content: '\ea02'; }
@@ -220,6 +232,9 @@ font-icon Webfont
 
 .fi-settings:before {
   content: '\ea31'; }
+
+.fi-share:before {
+  content: '\ea61'; }
 
 .fi-soc-facebook:before {
   content: '\ea43'; }
