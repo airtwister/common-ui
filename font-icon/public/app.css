@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1537957211524");
-  src: url("fonts/font-icon.eot?#iefix-1537957211524") format("embedded-opentype"), url("fonts/font-icon.woff2?1537957211524") format("woff2"), url("fonts/font-icon.woff?1537957211524") format("woff"), url("fonts/font-icon.ttf?1537957211524") format("truetype");
+  src: url("fonts/font-icon.eot?1538025521355");
+  src: url("fonts/font-icon.eot?#iefix-1538025521355") format("embedded-opentype"), url("fonts/font-icon.woff2?1538025521355") format("woff2"), url("fonts/font-icon.woff?1538025521355") format("woff"), url("fonts/font-icon.ttf?1538025521355") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -77,8 +77,17 @@ font-icon Webfont
 .fi-camera:before {
   content: '\ea4f'; }
 
+.fi-car:before {
+  content: '\ea62'; }
+
 .fi-card:before {
   content: '\ea51'; }
+
+.fi-cars-door:before {
+  content: '\ea63'; }
+
+.fi-cart:before {
+  content: '\ea64'; }
 
 .fi-chat:before {
   content: '\ea0c'; }
@@ -127,6 +136,9 @@ font-icon Webfont
 
 .fi-go-back-arrow:before {
   content: '\ea41'; }
+
+.fi-helicopter:before {
+  content: '\ea65'; }
 
 .fi-home:before {
   content: '\ea1b'; }
@@ -236,6 +248,9 @@ font-icon Webfont
 .fi-share:before {
   content: '\ea61'; }
 
+.fi-sheets:before {
+  content: '\ea66'; }
+
 .fi-soc-facebook:before {
   content: '\ea43'; }
 
@@ -302,6 +317,9 @@ font-icon Webfont
 .fi-top:before {
   content: '\ea5c'; }
 
+.fi-tractor:before {
+  content: '\ea67'; }
+
 .fi-trash:before {
   content: '\ea39'; }
 
@@ -316,6 +334,9 @@ font-icon Webfont
 
 .fi-warning-bordered:before {
   content: '\ea4a'; }
+
+.fi-wrench:before {
+  content: '\ea68'; }
 
 body {
   padding: 20px;
