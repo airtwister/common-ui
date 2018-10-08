@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1538025521355");
-  src: url("fonts/font-icon.eot?#iefix-1538025521355") format("embedded-opentype"), url("fonts/font-icon.woff2?1538025521355") format("woff2"), url("fonts/font-icon.woff?1538025521355") format("woff"), url("fonts/font-icon.ttf?1538025521355") format("truetype");
+  src: url("fonts/font-icon.eot?1538718718438");
+  src: url("fonts/font-icon.eot?#iefix-1538718718438") format("embedded-opentype"), url("fonts/font-icon.woff2?1538718718438") format("woff2"), url("fonts/font-icon.woff?1538718718438") format("woff"), url("fonts/font-icon.ttf?1538718718438") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -257,17 +257,20 @@ font-icon Webfont
 .fi-soc-instagram:before {
   content: '\ea44'; }
 
-.fi-soc-mail-ru:before {
+.fi-soc-my-mail-ru:before {
   content: '\ea45'; }
 
 .fi-soc-ok:before {
   content: '\ea46'; }
 
-.fi-soc-vk:before {
+.fi-soc-telegram:before {
   content: '\ea47'; }
 
-.fi-soc-youtube:before {
+.fi-soc-vk:before {
   content: '\ea48'; }
+
+.fi-soc-youtube:before {
+  content: '\ea69'; }
 
 .fi-star:before {
   content: '\ea33'; }
