@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1540548003825");
-  src: url("fonts/font-icon.eot?#iefix-1540548003825") format("embedded-opentype"), url("fonts/font-icon.woff2?1540548003825") format("woff2"), url("fonts/font-icon.woff?1540548003825") format("woff"), url("fonts/font-icon.ttf?1540548003825") format("truetype");
+  src: url("fonts/font-icon.eot?1540784891736");
+  src: url("fonts/font-icon.eot?#iefix-1540784891736") format("embedded-opentype"), url("fonts/font-icon.woff2?1540784891736") format("woff2"), url("fonts/font-icon.woff?1540784891736") format("woff"), url("fonts/font-icon.ttf?1540784891736") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -91,6 +91,9 @@ font-icon Webfont
 
 .fi-chat:before {
   content: '\ea0c'; }
+
+.fi-cheater:before {
+  content: '\ea72'; }
 
 .fi-check:before {
   content: '\ea0e'; }
@@ -184,9 +187,6 @@ font-icon Webfont
 
 .fi-menu-dot:before {
   content: '\ea3e'; }
-
-.fi-moshennik:before {
-  content: '\ea72'; }
 
 .fi-out:before {
   content: '\ea6a'; }
