@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1540982166894");
-  src: url("fonts/font-icon.eot?#iefix-1540982166894") format("embedded-opentype"), url("fonts/font-icon.woff2?1540982166894") format("woff2"), url("fonts/font-icon.woff?1540982166894") format("woff"), url("fonts/font-icon.ttf?1540982166894") format("truetype");
+  src: url("fonts/font-icon.eot?1541044593616");
+  src: url("fonts/font-icon.eot?#iefix-1541044593616") format("embedded-opentype"), url("fonts/font-icon.woff2?1541044593616") format("woff2"), url("fonts/font-icon.woff?1541044593616") format("woff"), url("fonts/font-icon.ttf?1541044593616") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -41,15 +41,6 @@ font-icon Webfont
 .fi-add-small-fill:before {
   content: '\ea5f'; }
 
-.fi-adt-big:before {
-  content: '\ea5d'; }
-
-.fi-adt-biig-fill:before {
-  content: '\ea73'; }
-
-.fi-adt-fill:before {
-  content: '\ea74'; }
-
 .fi-arrow-bottom:before {
   content: '\ea02'; }
 
@@ -83,9 +74,6 @@ font-icon Webfont
 .fi-calendar:before {
   content: '\ea0b'; }
 
-.fi-calendar-v2:before {
-  content: '\ea75'; }
-
 .fi-camera:before {
   content: '\ea4f'; }
 
@@ -113,14 +101,8 @@ font-icon Webfont
 .fi-check-big:before {
   content: '\ea0d'; }
 
-.fi-check-small-fill:before {
-  content: '\ea76'; }
-
 .fi-close-big:before {
   content: '\ea0f'; }
-
-.fi-close-bold:before {
-  content: '\ea77'; }
 
 .fi-close-small:before {
   content: '\ea10'; }
@@ -130,9 +112,6 @@ font-icon Webfont
 
 .fi-crown:before {
   content: '\ea56'; }
-
-.fi-dollar:before {
-  content: '\ea78'; }
 
 .fi-dot:before {
   content: '\ea12'; }
@@ -161,9 +140,6 @@ font-icon Webfont
 .fi-go-back-arrow:before {
   content: '\ea41'; }
 
-.fi-hand-map:before {
-  content: '\ea79'; }
-
 .fi-helicopter:before {
   content: '\ea65'; }
 
@@ -172,12 +148,6 @@ font-icon Webfont
 
 .fi-home-bordered:before {
   content: '\ea4c'; }
-
-.fi-house:before {
-  content: '\ea7b'; }
-
-.fi-house-big:before {
-  content: '\ea7a'; }
 
 .fi-info-service:before {
   content: '\ea1c'; }
@@ -215,9 +185,6 @@ font-icon Webfont
 .fi-mark:before {
   content: '\ea59'; }
 
-.fi-master-card:before {
-  content: '\ea7c'; }
-
 .fi-menu-dot:before {
   content: '\ea3e'; }
 
@@ -248,11 +215,8 @@ font-icon Webfont
 .fi-paid-urgent:before {
   content: '\ea28'; }
 
-.fi-paid-vip:before {
-  content: '\ea7f'; }
-
-.fi-paid-vip-fill:before {
-  content: '\ea7e'; }
+.fi-paid-vip.svg:before {
+  content: '\ea5d'; }
 
 .fi-paint:before {
   content: '\ea5a'; }
@@ -278,9 +242,6 @@ font-icon Webfont
 .fi-plus:before {
   content: '\ea2e'; }
 
-.fi-post-fill:before {
-  content: '\ea80'; }
-
 .fi-proverka:before {
   content: '\ea3f'; }
 
@@ -298,9 +259,6 @@ font-icon Webfont
 
 .fi-search:before {
   content: '\ea30'; }
-
-.fi-select-hand:before {
-  content: '\ea81'; }
 
 .fi-setting-big:before {
   content: '\ea6e'; }
@@ -386,9 +344,6 @@ font-icon Webfont
 .fi-target:before {
   content: '\ea36'; }
 
-.fi-terminal:before {
-  content: '\ea82'; }
-
 .fi-tile:before {
   content: '\ea37'; }
 
@@ -398,20 +353,11 @@ font-icon Webfont
 .fi-tractor:before {
   content: '\ea67'; }
 
-.fi-transport:before {
-  content: '\ea83'; }
-
 .fi-trash:before {
   content: '\ea39'; }
 
 .fi-utility-service:before {
   content: '\ea3b'; }
-
-.fi-view-old:before {
-  content: '\ea84'; }
-
-.fi-view-oldest:before {
-  content: '\ea85'; }
 
 .fi-view-type:before {
   content: '\ea4b'; }
@@ -421,9 +367,6 @@ font-icon Webfont
 
 .fi-warning-bordered:before {
   content: '\ea4a'; }
-
-.fi-warning-fill:before {
-  content: '\ea86'; }
 
 .fi-wrench:before {
   content: '\ea68'; }
