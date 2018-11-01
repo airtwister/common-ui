@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1541044593616");
-  src: url("fonts/font-icon.eot?#iefix-1541044593616") format("embedded-opentype"), url("fonts/font-icon.woff2?1541044593616") format("woff2"), url("fonts/font-icon.woff?1541044593616") format("woff"), url("fonts/font-icon.ttf?1541044593616") format("truetype");
+  src: url("fonts/font-icon.eot?1541045553366");
+  src: url("fonts/font-icon.eot?#iefix-1541045553366") format("embedded-opentype"), url("fonts/font-icon.woff2?1541045553366") format("woff2"), url("fonts/font-icon.woff?1541045553366") format("woff"), url("fonts/font-icon.ttf?1541045553366") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -215,7 +215,7 @@ font-icon Webfont
 .fi-paid-urgent:before {
   content: '\ea28'; }
 
-.fi-paid-vip.svg:before {
+.fi-paid-vip:before {
   content: '\ea5d'; }
 
 .fi-paint:before {
