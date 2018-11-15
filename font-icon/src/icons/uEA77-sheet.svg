@@ -3,9 +3,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
 <g>
-	<polygon points="9,13 9,14 10,14 14,14 14,13 10,13 	"/>
-	<polygon points="9,15.4 9,16 14,16 14,15.4 14,15 9,15 	"/>
-	<path d="M16,9l-2-2l-1-1h-1H9H7.5C6.7,6,6,6.7,6,7.5v10C6,18.3,6.7,19,7.5,19h8c0.8,0,1.5-0.7,1.5-1.5v-3.1V11v-1L16,9z M13,7.4
-		l2.6,2.6H13V7.4z M16,13.4v1v3.1c0,0.3-0.2,0.5-0.5,0.5h-8C7.2,18,7,17.8,7,17.5v-10C7,7.2,7.2,7,7.5,7H9h1h2v4h4V13.4z"/>
+	<rect x="9" y="12" width="5" height="1"/>
+	<rect x="9" y="14" width="5" height="1"/>
+	<path d="M13,5H7.5C6.7,5,6,5.7,6,6.5v10C6,17.3,6.7,18,7.5,18h8c0.8,0,1.5-0.7,1.5-1.5V9L13,5z M13,6.4L15.6,9H13V6.4z M16,16.5
+		c0,0.3-0.2,0.5-0.5,0.5h-8C7.2,17,7,16.8,7,16.5v-10C7,6.2,7.2,6,7.5,6H12v4h4V16.5z"/>
 </g>
 </svg>
