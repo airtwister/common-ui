@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1541047403337");
-  src: url("fonts/font-icon.eot?#iefix-1541047403337") format("embedded-opentype"), url("fonts/font-icon.woff2?1541047403337") format("woff2"), url("fonts/font-icon.woff?1541047403337") format("woff"), url("fonts/font-icon.ttf?1541047403337") format("truetype");
+  src: url("fonts/font-icon.eot?1542191929838");
+  src: url("fonts/font-icon.eot?#iefix-1542191929838") format("embedded-opentype"), url("fonts/font-icon.woff2?1542191929838") format("woff2"), url("fonts/font-icon.woff?1542191929838") format("woff"), url("fonts/font-icon.ttf?1542191929838") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -70,6 +70,9 @@ font-icon Webfont
 
 .fi-block-sign:before {
   content: '\ea40'; }
+
+.fi-bus:before {
+  content: '\ea75'; }
 
 .fi-calendar:before {
   content: '\ea0b'; }
@@ -140,6 +143,9 @@ font-icon Webfont
 .fi-go-back-arrow:before {
   content: '\ea41'; }
 
+.fi-graph:before {
+  content: '\ea76'; }
+
 .fi-helicopter:before {
   content: '\ea65'; }
 
@@ -187,9 +193,6 @@ font-icon Webfont
 
 .fi-menu-dot:before {
   content: '\ea3e'; }
-
-.fi-mobile:before {
-  content: '\ea73'; }
 
 .fi-out:before {
   content: '\ea6a'; }
@@ -260,6 +263,12 @@ font-icon Webfont
 .fi-search:before {
   content: '\ea30'; }
 
+.fi-send-message:before {
+  content: '\ea74'; }
+
+.fi-send-message-fill:before {
+  content: '\ea73'; }
+
 .fi-setting-big:before {
   content: '\ea6e'; }
 
@@ -277,6 +286,9 @@ font-icon Webfont
 
 .fi-share:before {
   content: '\ea61'; }
+
+.fi-sheet:before {
+  content: '\ea77'; }
 
 .fi-sheets:before {
   content: '\ea66'; }
@@ -353,8 +365,17 @@ font-icon Webfont
 .fi-tractor:before {
   content: '\ea67'; }
 
+.fi-traffic-light:before {
+  content: '\ea79'; }
+
 .fi-trash:before {
   content: '\ea39'; }
+
+.fi-truck:before {
+  content: '\ea78'; }
+
+.fi-tyre:before {
+  content: '\ea7a'; }
 
 .fi-utility-service:before {
   content: '\ea3b'; }
