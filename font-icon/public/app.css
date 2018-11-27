@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1542794443793");
-  src: url("fonts/font-icon.eot?#iefix-1542794443793") format("embedded-opentype"), url("fonts/font-icon.woff2?1542794443793") format("woff2"), url("fonts/font-icon.woff?1542794443793") format("woff"), url("fonts/font-icon.ttf?1542794443793") format("truetype");
+  src: url("fonts/font-icon.eot?1543311859149");
+  src: url("fonts/font-icon.eot?#iefix-1543311859149") format("embedded-opentype"), url("fonts/font-icon.woff2?1543311859149") format("woff2"), url("fonts/font-icon.woff?1543311859149") format("woff"), url("fonts/font-icon.ttf?1543311859149") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -116,6 +116,12 @@ font-icon Webfont
 .fi-crown:before {
   content: '\ea56'; }
 
+.fi-desktop:before {
+  content: '\ea7d'; }
+
+.fi-desktop-filled:before {
+  content: '\ea7c'; }
+
 .fi-dot:before {
   content: '\ea12'; }
 
@@ -142,6 +148,9 @@ font-icon Webfont
 
 .fi-go-back-arrow:before {
   content: '\ea41'; }
+
+.fi-go-back-arrow-bold:before {
+  content: '\ea7e'; }
 
 .fi-graph:before {
   content: '\ea76'; }
