@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1549607142421");
-  src: url("fonts/font-icon.eot?#iefix-1549607142421") format("embedded-opentype"), url("fonts/font-icon.woff2?1549607142421") format("woff2"), url("fonts/font-icon.woff?1549607142421") format("woff"), url("fonts/font-icon.ttf?1549607142421") format("truetype");
+  src: url("fonts/font-icon.eot?1550134863730");
+  src: url("fonts/font-icon.eot?#iefix-1550134863730") format("embedded-opentype"), url("fonts/font-icon.woff2?1550134863730") format("woff2"), url("fonts/font-icon.woff?1550134863730") format("woff"), url("fonts/font-icon.ttf?1550134863730") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -103,6 +103,9 @@ font-icon Webfont
 
 .fi-check-big:before {
   content: '\ea0d'; }
+
+.fi-clock:before {
+  content: '\ea85'; }
 
 .fi-close-big:before {
   content: '\ea0f'; }
