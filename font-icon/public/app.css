@@ -3,8 +3,8 @@ font-icon Webfont
 */
 @font-face {
   font-family: 'font-icon';
-  src: url("fonts/font-icon.eot?1550134863730");
-  src: url("fonts/font-icon.eot?#iefix-1550134863730") format("embedded-opentype"), url("fonts/font-icon.woff2?1550134863730") format("woff2"), url("fonts/font-icon.woff?1550134863730") format("woff"), url("fonts/font-icon.ttf?1550134863730") format("truetype");
+  src: url("fonts/font-icon.eot?1550806401848");
+  src: url("fonts/font-icon.eot?#iefix-1550806401848") format("embedded-opentype"), url("fonts/font-icon.woff2?1550806401848") format("woff2"), url("fonts/font-icon.woff?1550806401848") format("woff"), url("fonts/font-icon.ttf?1550806401848") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -248,6 +248,9 @@ font-icon Webfont
 .fi-painted:before {
   content: '\ea2b'; }
 
+.fi-pause:before {
+  content: '\ea86'; }
+
 .fi-percent:before {
   content: '\ea2c'; }
 
@@ -262,6 +265,9 @@ font-icon Webfont
 
 .fi-photo-fill:before {
   content: '\ea6b'; }
+
+.fi-play:before {
+  content: '\ea87'; }
 
 .fi-plus:before {
   content: '\ea2e'; }
@@ -349,6 +355,9 @@ font-icon Webfont
 
 .fi-sticker-filled:before {
   content: '\ea34'; }
+
+.fi-stop:before {
+  content: '\ea88'; }
 
 .fi-stopwatch:before {
   content: '\ea81'; }
