@@ -1,0 +1,588 @@
+/**
+font-icon Webfont
+*/
+@font-face {
+  font-family: 'font-icon';
+  src: url('fonts/font-icon.eot?1552539484743');
+  src: url('fonts/font-icon.eot?#iefix-1552539484743') format('embedded-opentype'),
+  url('fonts/font-icon.woff2?1552539484743') format('woff2'),
+  url('fonts/font-icon.woff?1552539484743') format('woff'),
+  url('fonts/font-icon.ttf?1552539484743') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='fi-']:before,
+[class*=' fi-']:before,
+.fi:before{
+  font-family: 'font-icon';
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 24px;
+}
+
+/* Glyphs list */
+.fi-add:before {
+  content: '\ea01';
+}
+
+.fi-add-big:before {
+  content: '\ea5e';
+}
+
+.fi-add-big-fill:before {
+  content: '\ea3d';
+}
+
+.fi-add-small:before {
+  content: '\ea60';
+}
+
+.fi-add-small-fill:before {
+  content: '\ea5f';
+}
+
+.fi-arrow-bottom:before {
+  content: '\ea02';
+}
+
+.fi-arrow-left:before {
+  content: '\ea03';
+}
+
+.fi-arrow-mini:before {
+  content: '\ea04';
+}
+
+.fi-arrow-right:before {
+  content: '\ea05';
+}
+
+.fi-arrow-small-bottom:before {
+  content: '\ea06';
+}
+
+.fi-arrow-small-left:before {
+  content: '\ea07';
+}
+
+.fi-arrow-small-right:before {
+  content: '\ea08';
+}
+
+.fi-arrow-small-top:before {
+  content: '\ea09';
+}
+
+.fi-arrow-top:before {
+  content: '\ea0a';
+}
+
+.fi-block-sign:before {
+  content: '\ea40';
+}
+
+.fi-bus:before {
+  content: '\ea75';
+}
+
+.fi-calendar:before {
+  content: '\ea0b';
+}
+
+.fi-camera:before {
+  content: '\ea4f';
+}
+
+.fi-car:before {
+  content: '\ea62';
+}
+
+.fi-card:before {
+  content: '\ea51';
+}
+
+.fi-cars-door:before {
+  content: '\ea63';
+}
+
+.fi-cart:before {
+  content: '\ea64';
+}
+
+.fi-chat:before {
+  content: '\ea0c';
+}
+
+.fi-cheater:before {
+  content: '\ea72';
+}
+
+.fi-check:before {
+  content: '\ea0e';
+}
+
+.fi-check-big:before {
+  content: '\ea0d';
+}
+
+.fi-clock:before {
+  content: '\ea85';
+}
+
+.fi-close-big:before {
+  content: '\ea0f';
+}
+
+.fi-close-small:before {
+  content: '\ea10';
+}
+
+.fi-comment:before {
+  content: '\ea50';
+}
+
+.fi-crown:before {
+  content: '\ea56';
+}
+
+.fi-desktop:before {
+  content: '\ea7d';
+}
+
+.fi-desktop-filled:before {
+  content: '\ea7c';
+}
+
+.fi-dot:before {
+  content: '\ea12';
+}
+
+.fi-edit:before {
+  content: '\ea13';
+}
+
+.fi-envelope:before {
+  content: '\ea14';
+}
+
+.fi-error-bordered:before {
+  content: '\ea84';
+}
+
+.fi-exchange:before {
+  content: '\ea52';
+}
+
+.fi-eye:before {
+  content: '\ea15';
+}
+
+.fi-fire:before {
+  content: '\ea57';
+}
+
+.fi-foto:before {
+  content: '\ea18';
+}
+
+.fi-go-back-arrow:before {
+  content: '\ea41';
+}
+
+.fi-go-back-arrow-bold:before {
+  content: '\ea7e';
+}
+
+.fi-graph:before {
+  content: '\ea76';
+}
+
+.fi-helicopter:before {
+  content: '\ea65';
+}
+
+.fi-home:before {
+  content: '\ea1b';
+}
+
+.fi-home-bordered:before {
+  content: '\ea4c';
+}
+
+.fi-id-card:before {
+  content: '\ea19';
+}
+
+.fi-info-service:before {
+  content: '\ea1c';
+}
+
+.fi-info-service-unfilled:before {
+  content: '\ea71';
+}
+
+.fi-kaspi:before {
+  content: '\ea53';
+}
+
+.fi-kristal:before {
+  content: '\ea58';
+}
+
+.fi-legal-advice:before {
+  content: '\ea20';
+}
+
+.fi-like:before {
+  content: '\ea22';
+}
+
+.fi-like-filled:before {
+  content: '\ea21';
+}
+
+.fi-list:before {
+  content: '\ea23';
+}
+
+.fi-location:before {
+  content: '\ea25';
+}
+
+.fi-location-filled:before {
+  content: '\ea24';
+}
+
+.fi-lock:before {
+  content: '\ea8a';
+}
+
+.fi-lock-filled:before {
+  content: '\ea89';
+}
+
+.fi-lodash:before {
+  content: '\ea26';
+}
+
+.fi-mark:before {
+  content: '\ea59';
+}
+
+.fi-menu-burger:before {
+  content: '\ea7f';
+}
+
+.fi-menu-dot:before {
+  content: '\ea3e';
+}
+
+.fi-mobile:before {
+  content: '\ea7b';
+}
+
+.fi-out:before {
+  content: '\ea6a';
+}
+
+.fi-paid-color:before {
+  content: '\ea2a';
+}
+
+.fi-paid-fast:before {
+  content: '\ea1f';
+}
+
+.fi-paid-hot:before {
+  content: '\ea38';
+}
+
+.fi-paid-re:before {
+  content: '\ea4e';
+}
+
+.fi-paid-turbo:before {
+  content: '\ea11';
+}
+
+.fi-paid-up:before {
+  content: '\ea17';
+}
+
+.fi-paid-urgent:before {
+  content: '\ea28';
+}
+
+.fi-paid-vip:before {
+  content: '\ea5d';
+}
+
+.fi-paint:before {
+  content: '\ea5a';
+}
+
+.fi-painted:before {
+  content: '\ea2b';
+}
+
+.fi-pause:before {
+  content: '\ea86';
+}
+
+.fi-percent:before {
+  content: '\ea2c';
+}
+
+.fi-person:before {
+  content: '\ea2d';
+}
+
+.fi-phone:before {
+  content: '\ea4d';
+}
+
+.fi-photo:before {
+  content: '\ea6c';
+}
+
+.fi-photo-fill:before {
+  content: '\ea6b';
+}
+
+.fi-play:before {
+  content: '\ea87';
+}
+
+.fi-plus:before {
+  content: '\ea2e';
+}
+
+.fi-proverka:before {
+  content: '\ea3f';
+}
+
+.fi-qiwi:before {
+  content: '\ea54';
+}
+
+.fi-question:before {
+  content: '\ea2f';
+}
+
+.fi-round-arrow:before {
+  content: '\ea42';
+}
+
+.fi-round-arrow-bold:before {
+  content: '\ea5b';
+}
+
+.fi-search:before {
+  content: '\ea30';
+}
+
+.fi-secure:before {
+  content: '\ea80';
+}
+
+.fi-send-message:before {
+  content: '\ea74';
+}
+
+.fi-send-message-fill:before {
+  content: '\ea73';
+}
+
+.fi-setting-big:before {
+  content: '\ea6e';
+}
+
+.fi-setting-big-fill:before {
+  content: '\ea6d';
+}
+
+.fi-setting-small:before {
+  content: '\ea70';
+}
+
+.fi-setting-small-fill:before {
+  content: '\ea6f';
+}
+
+.fi-settings:before {
+  content: '\ea31';
+}
+
+.fi-share:before {
+  content: '\ea61';
+}
+
+.fi-sheet:before {
+  content: '\ea77';
+}
+
+.fi-sheets:before {
+  content: '\ea66';
+}
+
+.fi-soc-facebook:before {
+  content: '\ea43';
+}
+
+.fi-soc-instagram:before {
+  content: '\ea44';
+}
+
+.fi-soc-my-mail-ru:before {
+  content: '\ea45';
+}
+
+.fi-soc-ok:before {
+  content: '\ea46';
+}
+
+.fi-soc-telegram:before {
+  content: '\ea47';
+}
+
+.fi-soc-vk:before {
+  content: '\ea48';
+}
+
+.fi-soc-youtube:before {
+  content: '\ea69';
+}
+
+.fi-star:before {
+  content: '\ea33';
+}
+
+.fi-star-filled:before {
+  content: '\ea32';
+}
+
+.fi-sticker:before {
+  content: '\ea35';
+}
+
+.fi-sticker-filled:before {
+  content: '\ea34';
+}
+
+.fi-stop:before {
+  content: '\ea88';
+}
+
+.fi-stopwatch:before {
+  content: '\ea81';
+}
+
+.fi-success-bordered:before {
+  content: '\ea49';
+}
+
+.fi-success-filled:before {
+  content: '\ea82';
+}
+
+.fi-tab-envelope:before {
+  content: '\ea1a';
+}
+
+.fi-tab-envelope-filled:before {
+  content: '\ea16';
+}
+
+.fi-tab-person:before {
+  content: '\ea1e';
+}
+
+.fi-tab-person-filled:before {
+  content: '\ea1d';
+}
+
+.fi-tab-star:before {
+  content: '\ea29';
+}
+
+.fi-tab-star-filled:before {
+  content: '\ea27';
+}
+
+.fi-tab-tile:before {
+  content: '\ea3c';
+}
+
+.fi-tab-tile-filled:before {
+  content: '\ea3a';
+}
+
+.fi-target:before {
+  content: '\ea36';
+}
+
+.fi-tile:before {
+  content: '\ea37';
+}
+
+.fi-top:before {
+  content: '\ea5c';
+}
+
+.fi-tractor:before {
+  content: '\ea67';
+}
+
+.fi-traffic-light:before {
+  content: '\ea79';
+}
+
+.fi-trash:before {
+  content: '\ea39';
+}
+
+.fi-truck:before {
+  content: '\ea78';
+}
+
+.fi-tyre:before {
+  content: '\ea7a';
+}
+
+.fi-utility-service:before {
+  content: '\ea3b';
+}
+
+.fi-verification-filled:before {
+  content: '\ea8b';
+}
+
+.fi-view-type:before {
+  content: '\ea4b';
+}
+
+.fi-wallet:before {
+  content: '\ea55';
+}
+
+.fi-warning-bordered:before {
+  content: '\ea4a';
+}
+
+.fi-warning-filled:before {
+  content: '\ea83';
+}
+
+.fi-wrench:before {
+  content: '\ea68';
+}
